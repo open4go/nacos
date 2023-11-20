@@ -12,9 +12,9 @@ const (
 
 	// 定义dataId
 	// 权限验证
-	authConf = "auth"
+	authConf = "auth.yaml"
 	// 产品服务
-	productConf = "product"
+	productConf = "product.yaml"
 )
 
 func GetNamespace() string {
